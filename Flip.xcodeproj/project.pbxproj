@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E96DA751E02308000861302 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96DA741E02308000861302 /* Hexagon.swift */; };
 		9EBCB1F91E00E5E20055A697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB1F81E00E5E20055A697 /* AppDelegate.swift */; };
-		9EBCB1FB1E00E5E20055A697 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9EBCB1FA1E00E5E20055A697 /* GameScene.sks */; };
-		9EBCB1FD1E00E5E20055A697 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9EBCB1FC1E00E5E20055A697 /* Actions.sks */; };
 		9EBCB1FF1E00E5E20055A697 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB1FE1E00E5E20055A697 /* GameScene.swift */; };
 		9EBCB2011E00E5E20055A697 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB2001E00E5E20055A697 /* GameViewController.swift */; };
 		9EBCB2041E00E5E20055A697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBCB2021E00E5E20055A697 /* Main.storyboard */; };
@@ -17,6 +16,7 @@
 		9EBCB2091E00E5E20055A697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EBCB2071E00E5E20055A697 /* LaunchScreen.storyboard */; };
 		9EBCB2141E00E5E20055A697 /* FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB2131E00E5E20055A697 /* FlipTests.swift */; };
 		9EBCB21F1E00E5E20055A697 /* FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB21E1E00E5E20055A697 /* FlipUITests.swift */; };
+		9EBCB2671E0224F80055A697 /* Hexagons Images in Resources */ = {isa = PBXBuildFile; fileRef = 9EBCB2661E0224F80055A697 /* Hexagons Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E96DA741E02308000861302 /* Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
 		9EBCB1F51E00E5E20055A697 /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBCB1F81E00E5E20055A697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EBCB1FA1E00E5E20055A697 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9EBCB1FC1E00E5E20055A697 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9EBCB1FE1E00E5E20055A697 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9EBCB2001E00E5E20055A697 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		9EBCB2031E00E5E20055A697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		9EBCB21A1E00E5E20055A697 /* FlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBCB21E1E00E5E20055A697 /* FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipUITests.swift; sourceTree = "<group>"; };
 		9EBCB2201E00E5E20055A697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EBCB2661E0224F80055A697 /* Hexagons Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Hexagons Images"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +103,15 @@
 		9EBCB1F71E00E5E20055A697 /* Flip */ = {
 			isa = PBXGroup;
 			children = (
+				9EBCB2661E0224F80055A697 /* Hexagons Images */,
 				9EBCB1F81E00E5E20055A697 /* AppDelegate.swift */,
-				9EBCB1FA1E00E5E20055A697 /* GameScene.sks */,
-				9EBCB1FC1E00E5E20055A697 /* Actions.sks */,
 				9EBCB1FE1E00E5E20055A697 /* GameScene.swift */,
 				9EBCB2001E00E5E20055A697 /* GameViewController.swift */,
 				9EBCB2021E00E5E20055A697 /* Main.storyboard */,
 				9EBCB2051E00E5E20055A697 /* Assets.xcassets */,
 				9EBCB2071E00E5E20055A697 /* LaunchScreen.storyboard */,
 				9EBCB20A1E00E5E20055A697 /* Info.plist */,
+				9E96DA741E02308000861302 /* Hexagon.swift */,
 			);
 			path = Flip;
 			sourceTree = "<group>";
@@ -242,10 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EBCB2041E00E5E20055A697 /* Main.storyboard in Resources */,
-				9EBCB1FB1E00E5E20055A697 /* GameScene.sks in Resources */,
+				9EBCB2671E0224F80055A697 /* Hexagons Images in Resources */,
 				9EBCB2061E00E5E20055A697 /* Assets.xcassets in Resources */,
 				9EBCB2091E00E5E20055A697 /* LaunchScreen.storyboard in Resources */,
-				9EBCB1FD1E00E5E20055A697 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +271,7 @@
 			files = (
 				9EBCB1FF1E00E5E20055A697 /* GameScene.swift in Sources */,
 				9EBCB2011E00E5E20055A697 /* GameViewController.swift in Sources */,
+				9E96DA751E02308000861302 /* Hexagon.swift in Sources */,
 				9EBCB1F91E00E5E20055A697 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Flip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.Flip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -517,6 +519,7 @@
 				9EBCB2251E00E5E20055A697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EBCB2261E00E5E20055A697 /* Build configuration list for PBXNativeTarget "FlipTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +528,7 @@
 				9EBCB2281E00E5E20055A697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EBCB2291E00E5E20055A697 /* Build configuration list for PBXNativeTarget "FlipUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +537,7 @@
 				9EBCB22B1E00E5E20055A697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

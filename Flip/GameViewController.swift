@@ -8,48 +8,32 @@
 
 import UIKit
 import SpriteKit
-import GameplayKit
 
 class GameViewController: UIViewController {
-
+    var scene: GameScene!
+    
+    override var prefersStatusBarHidden: Bool{
+        return true
+    }
+    
+    override var shouldAutorotate: Bool{
+        return true
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask{
+        return[.portrait, .portraitUpsideDown]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //skview object represents content of a sprite kit
+        let SKView = view as! SKView //! is used after as to force a downcast
+        SKView.isMultipleTouchEnabled = false //disables multi touch?
         
-        if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
-            
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
-    }
-
-    override var shouldAutorotate: Bool {
-        return true
-    }
-
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-
-    override var prefersStatusBarHidden: Bool {
-        return true
+        scene = GameScene(size: SKView.bounds.size) //size of game scene (origin is bottom left corner
+        scene.scaleMode = .aspectFill
+        scene.backgroundColor = .black
+        
+        SKView.presentScene(scene) //actually present the scene
     }
 }
