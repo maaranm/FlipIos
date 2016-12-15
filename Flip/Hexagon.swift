@@ -12,7 +12,7 @@ import SpriteKit
 enum hexType: Int, CustomStringConvertible{
     case unknown = 0, darkHex, lightHex, nullHex
     var spriteName: String {
-        let spriteNames = ["lightHex","darkHex","nullHex"]
+        let spriteNames = ["LightHex","DarkHex","NullHex"]
         return spriteNames[rawValue - 1]
     }
     
@@ -25,7 +25,7 @@ enum hexType: Int, CustomStringConvertible{
     }
 }
 
-class Hexagon: CustomStringConvertible{
+class Hexagon: CustomStringConvertible, Hashable{
     var posX = Int()
     var posY = Int()
     
@@ -40,6 +40,13 @@ class Hexagon: CustomStringConvertible{
     var description: String{
         return "type:\(hexType) pos:(\(posX),\(posY))"
     }
+    var hashValue: Int {
+        return self.posY*10 + self.posX
+    }
+}
+
+func ==(lhs: Hexagon, rhs: Hexagon) -> Bool{
+    return lhs.posX == rhs.posX && lhs.posY == rhs.posY
 }
 
 struct gameVariables{

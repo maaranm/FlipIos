@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E96DA751E02308000861302 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96DA741E02308000861302 /* Hexagon.swift */; };
+		9E96DA771E023FAE00861302 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96DA761E023FAE00861302 /* Array2D.swift */; };
 		9EBCB1F91E00E5E20055A697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB1F81E00E5E20055A697 /* AppDelegate.swift */; };
 		9EBCB1FF1E00E5E20055A697 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB1FE1E00E5E20055A697 /* GameScene.swift */; };
 		9EBCB2011E00E5E20055A697 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB2001E00E5E20055A697 /* GameViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		9E96DA741E02308000861302 /* Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		9E96DA761E023FAE00861302 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		9EBCB1F51E00E5E20055A697 /* Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBCB1F81E00E5E20055A697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EBCB1FE1E00E5E20055A697 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				9EBCB2071E00E5E20055A697 /* LaunchScreen.storyboard */,
 				9EBCB20A1E00E5E20055A697 /* Info.plist */,
 				9E96DA741E02308000861302 /* Hexagon.swift */,
+				9E96DA761E023FAE00861302 /* Array2D.swift */,
 			);
 			path = Flip;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				9EBCB2011E00E5E20055A697 /* GameViewController.swift in Sources */,
 				9E96DA751E02308000861302 /* Hexagon.swift in Sources */,
 				9EBCB1F91E00E5E20055A697 /* AppDelegate.swift in Sources */,
+				9E96DA771E023FAE00861302 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
