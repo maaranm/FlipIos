@@ -48,7 +48,3 @@ class Hexagon: CustomStringConvertible, Hashable{
 func ==(lhs: Hexagon, rhs: Hexagon) -> Bool{
     return lhs.posX == rhs.posX && lhs.posY == rhs.posY
 }
-
-struct gameVariables{
-    static var numOfNull = 6
-}
