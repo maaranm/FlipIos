@@ -10,7 +10,7 @@ import Foundation
 
 var numColumns = 9
 var numRows = 4
-var numNull = 9*4*0.5*0.38
+var numNull = (Double(numColumns)*Double(numRows)*0.38
 var actNumNull = 0
 
 class SmallLevel{

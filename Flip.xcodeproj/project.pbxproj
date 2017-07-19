@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08A198292DC2771C0E89AAAB /* Pods_FlipTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CDE87429EED09648383EF8A /* Pods_FlipTests.framework */; };
 		9E96DA751E02308000861302 /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96DA741E02308000861302 /* Hexagon.swift */; };
 		9E96DA771E023FAE00861302 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96DA761E023FAE00861302 /* Array2D.swift */; };
 		9E96DA791E0246AB00861302 /* SmallLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E96DA781E0246AB00861302 /* SmallLevel.swift */; };
@@ -19,6 +20,8 @@
 		9EBCB2141E00E5E20055A697 /* FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB2131E00E5E20055A697 /* FlipTests.swift */; };
 		9EBCB21F1E00E5E20055A697 /* FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBCB21E1E00E5E20055A697 /* FlipUITests.swift */; };
 		9EBCB2671E0224F80055A697 /* Hexagons Images in Resources */ = {isa = PBXBuildFile; fileRef = 9EBCB2661E0224F80055A697 /* Hexagons Images */; };
+		A9B0D791E3B58262E027F450 /* Pods_FlipUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D48D3C2EF24EB99FD8FDDA /* Pods_FlipUITests.framework */; };
+		EC5FA3852B16E29715A9C0C4 /* Pods_Flip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C79049CA3543D194D351917 /* Pods_Flip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1840CD49C874E251B4D02636 /* Pods-Flip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flip/Pods-Flip.debug.xcconfig"; sourceTree = "<group>"; };
+		2050B5A112DFD3A0AA3D5A9E /* Pods-Flip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flip.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flip/Pods-Flip.release.xcconfig"; sourceTree = "<group>"; };
+		2B267F7DECA9E998336FE385 /* Pods-FlipTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipTests/Pods-FlipTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C79049CA3543D194D351917 /* Pods_Flip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38D48D3C2EF24EB99FD8FDDA /* Pods_FlipUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E617DE13EB77F9DBBF090E7 /* Pods-FlipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlipUITests/Pods-FlipUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B0749BB825270BE6B643AAE /* Pods-FlipTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipTests/Pods-FlipTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CDE87429EED09648383EF8A /* Pods_FlipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E96DA741E02308000861302 /* Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
 		9E96DA761E023FAE00861302 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		9E96DA781E0246AB00861302 /* SmallLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallLevel.swift; sourceTree = "<group>"; };
@@ -57,6 +68,7 @@
 		9EBCB21E1E00E5E20055A697 /* FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipUITests.swift; sourceTree = "<group>"; };
 		9EBCB2201E00E5E20055A697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EBCB2661E0224F80055A697 /* Hexagons Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Hexagons Images"; sourceTree = "<group>"; };
+		FFF8C232BBAA169B3E9C94E8 /* Pods-FlipUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlipUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlipUITests/Pods-FlipUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5FA3852B16E29715A9C0C4 /* Pods_Flip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A198292DC2771C0E89AAAB /* Pods_FlipTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B0D791E3B58262E027F450 /* Pods_FlipUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76585F589A5BD1EDF2BA5731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C79049CA3543D194D351917 /* Pods_Flip.framework */,
+				7CDE87429EED09648383EF8A /* Pods_FlipTests.framework */,
+				38D48D3C2EF24EB99FD8FDDA /* Pods_FlipUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9EBCB1EC1E00E5E20055A697 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +116,8 @@
 				9EBCB2121E00E5E20055A697 /* FlipTests */,
 				9EBCB21D1E00E5E20055A697 /* FlipUITests */,
 				9EBCB1F61E00E5E20055A697 /* Products */,
+				DBFA3D00A8AD9E3B19FC2763 /* Pods */,
+				76585F589A5BD1EDF2BA5731 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = FlipUITests;
 			sourceTree = "<group>";
 		};
+		DBFA3D00A8AD9E3B19FC2763 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1840CD49C874E251B4D02636 /* Pods-Flip.debug.xcconfig */,
+				2050B5A112DFD3A0AA3D5A9E /* Pods-Flip.release.xcconfig */,
+				5B0749BB825270BE6B643AAE /* Pods-FlipTests.debug.xcconfig */,
+				2B267F7DECA9E998336FE385 /* Pods-FlipTests.release.xcconfig */,
+				FFF8C232BBAA169B3E9C94E8 /* Pods-FlipUITests.debug.xcconfig */,
+				4E617DE13EB77F9DBBF090E7 /* Pods-FlipUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EBCB2231E00E5E20055A697 /* Build configuration list for PBXNativeTarget "Flip" */;
 			buildPhases = (
+				DB6435B05B19C7CC7CF7B0DC /* [CP] Check Pods Manifest.lock */,
 				9EBCB1F11E00E5E20055A697 /* Sources */,
 				9EBCB1F21E00E5E20055A697 /* Frameworks */,
 				9EBCB1F31E00E5E20055A697 /* Resources */,
+				7EA3D13DC02B0D0A2FFBE5C8 /* [CP] Embed Pods Frameworks */,
+				2FF6EBF81901B0BEAFF7CE20 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EBCB2261E00E5E20055A697 /* Build configuration list for PBXNativeTarget "FlipTests" */;
 			buildPhases = (
+				A515EE590B98F70D9AAC01EE /* [CP] Check Pods Manifest.lock */,
 				9EBCB20B1E00E5E20055A697 /* Sources */,
 				9EBCB20C1E00E5E20055A697 /* Frameworks */,
 				9EBCB20D1E00E5E20055A697 /* Resources */,
+				68F045A76C59B089B4BAEC57 /* [CP] Embed Pods Frameworks */,
+				BFCAD50838F05B31333774DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EBCB2291E00E5E20055A697 /* Build configuration list for PBXNativeTarget "FlipUITests" */;
 			buildPhases = (
+				B890588EE6C5B14A3B821BAE /* [CP] Check Pods Manifest.lock */,
 				9EBCB2161E00E5E20055A697 /* Sources */,
 				9EBCB2171E00E5E20055A697 /* Frameworks */,
 				9EBCB2181E00E5E20055A697 /* Resources */,
+				79DAB517509B488ECF0669B9 /* [CP] Embed Pods Frameworks */,
+				06C7CE6035E871ADCE579B6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +318,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06C7CE6035E871ADCE579B6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipUITests/Pods-FlipUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FF6EBF81901B0BEAFF7CE20 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flip/Pods-Flip-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68F045A76C59B089B4BAEC57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipTests/Pods-FlipTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79DAB517509B488ECF0669B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipUITests/Pods-FlipUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EA3D13DC02B0D0A2FFBE5C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flip/Pods-Flip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A515EE590B98F70D9AAC01EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B890588EE6C5B14A3B821BAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BFCAD50838F05B31333774DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlipTests/Pods-FlipTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6435B05B19C7CC7CF7B0DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9EBCB1F11E00E5E20055A697 /* Sources */ = {
@@ -430,6 +617,7 @@
 		};
 		9EBCB2241E00E5E20055A697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1840CD49C874E251B4D02636 /* Pods-Flip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flip/Info.plist;
@@ -443,6 +631,7 @@
 		};
 		9EBCB2251E00E5E20055A697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2050B5A112DFD3A0AA3D5A9E /* Pods-Flip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Flip/Info.plist;
@@ -456,6 +645,7 @@
 		};
 		9EBCB2271E00E5E20055A697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B0749BB825270BE6B643AAE /* Pods-FlipTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -470,6 +660,7 @@
 		};
 		9EBCB2281E00E5E20055A697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B267F7DECA9E998336FE385 /* Pods-FlipTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +675,7 @@
 		};
 		9EBCB22A1E00E5E20055A697 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF8C232BBAA169B3E9C94E8 /* Pods-FlipUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FlipUITests/Info.plist;
@@ -497,6 +689,7 @@
 		};
 		9EBCB22B1E00E5E20055A697 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E617DE13EB77F9DBBF090E7 /* Pods-FlipUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = FlipUITests/Info.plist;
